@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#git clone https://github.com/rishabhnama/prometheus-linux
+git clone https://github.com/rishabhnama/prometheus-linux
 
 sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_8.5.2_amd64.deb
