@@ -23,4 +23,4 @@ cd ..
 cd prometheus-linux
 chmod u+x better-top
 chmod u+x better-top2
-while sleep 1; do ./better-top; done && while sleep 1; do ./better-top2; done;
+while sleep 1; do ./better-top && ./better-top2; done
