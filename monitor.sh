@@ -10,14 +10,14 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.35.0/promethe
 tar -xvf prometheus-2.35.0.linux-amd64.tar.gz
 cp prometheus-linux/prometheus-files/prometheus.yml prometheus-2.35.0.linux-amd64
 cd prometheus-2.35.0.linux-amd64
-./prometheus
+./prometheus &
 
 cd ..
 
 wget https://github.com/prometheus/pushgateway/releases/download/v1.4.2/pushgateway-1.4.2.linux-amd64.tar.gz
 tar xvzf pushgateway-1.4.2.linux-amd64.tar.gz
 cd pushgateway-1.4.2.linux-amd64
-./pushgateway
+./pushgateway &
 
 cd ..
 cd prometheus-linux
